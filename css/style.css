@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../assets/img/fondoprincipal1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: unset;
+    font-family: 'Poppins', sans-serif;
+   /*background-image: linear-gradient(to right top, #adc9cd, #a0b7ba, #93a5a8, #869396, #798284, #7f8688, #868a8c, #8c8e90, #a8a9ab, #c4c5c6, #e1e2e2, #ffffff);*/
+}
+.bodyIndex{
+    background-image: url(../assets/img/fondoprincipal1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+   /*background-image: linear-gradient(to right top, #adc9cd, #a0b7ba, #93a5a8, #869396, #798284, #7f8688, #868a8c, #8c8e90, #a8a9ab, #c4c5c6, #e1e2e2, #ffffff);*/
+}
+.logoNav{
+    background-color: #f5f8f7;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+.marginHrTitulo{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: #1B664F;
+}
+/*Fondo principal*/
+.headerIndex {
+    height: 100vh;   
+}
+/*Contendor del logo*/
+.divlogo{
+    width:49%;
+    display: inline-block;
+    text-align: left;
+    padding-top: 15px;
+    
+}
+.logo{
+    width: 50%;
+
+}
+.navegador{
+display: inline-block;
+width: 50%;
+text-align: right;
+
+}
+.listaItem {
+    display: inline-block;
+    list-style: none;
+    padding-left: 20px;
+    padding-top: 0%;
+}
+
+.linknav {
+    text-decoration: none;
+    color: #1B664F;
+    font-size: 1.3rem;
+}
+.tituloHeader{
+    text-align: center;
+    margin: 0 auto;
+    height: 20vh;
+    width: 50%;
+    margin-top: 30vh;
+    background-color: #5b5e5d45;
+    backdrop-filter: blur(20px);
+    border-radius: 5rem;
+}
+.tituloHeader h1{
+    font-size: 2rem;
+}
+.tituloHeader p{
+    font-size: 1rem;
+    color: white;
+    text-shadow: 0 0 4px #000000;
+}
+.main{
+    height: 55vh;
+    backdrop-filter: blur(15px);
+}
+.sectionCards{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.sectionCards h2{
+    font-size: 1.5rem;   
+ }
+ .sectionCards p{/*Corresponde al texto que esta dentro del section del main*/
+    text-align: center;
+    margin: 0 auto;
+    width: 30%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+ }
+.caja{/*contendor de imagenes de los Banners*/
+    width: 20%;
+    display: inline-block;
+    margin-left: 3rem;
+}
+.caja img{
+    width: 100%;
+    height: 30vh;
+    object-fit: fill;
+    border: 10px inset #ffffff81;
+}
+
+.footer{
+    margin: 0 auto;
+    height: 10vh;
+    text-align: center;
+
+}
+.footer p{
+    text-align: center;
+    color: white;
+}
+.redes  {
+    text-decoration: none;
+}
+.fa-brands{/*Iconos Footer*/ 
+    font-size: 2rem;
+    padding-left: 20px;
+}
+
+
+
+/*Aca empieza Proyectos.html*/
+
+.proyectos{
+    color: white;
+    height: 20vh;
+    margin: 0 auto;
+    width: 40%;
+    text-align: center;padding-top: 5px;
+}
+
+.mainProyectos{
+    /*background-color: beige;*/
+    text-align: center;
+    height: 60vh;
+    backdrop-filter: blur(15px);
+}
+.sectionProyectos{
+    /*background-color: aqua;*/
+    text-align: center;
+    width: 100%;
+    margin: 0  auto;
+}
+.sectionProyectos p{
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+}
+.sectionCards h2{
+    font-size: 1.5rem;
+}
+
+.card {
+    /* background-color: red; Solo para probar*/
+    width: 20rem;
+    height: 20rem;
+    display: inline-block;
+    margin-left: 3rem;
+}
+.card img{
+    background-color: rgba(255, 0, 0, 0);
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 10px inset #ffffff81;
+    border-radius: 50%;
+    margin-top: 2vh;
+}
+.card h3{
+    color: white;
+}
+
+/*Aca empieza Galeria.html*/ /**/
+.headerIndexGaleria{
+    text-align: center;
+}
+.mainGaleria{
+    text-align: center;
+    height: 80vh;
+    backdrop-filter: blur(15px);
+}
+.cardGaleria{
+    height: auto;
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+    height: 200px;
+    width: 200px;
+    margin-right: 3rem
+}
+
+.cardGaleria2{
+    text-align: center;
+    width: 20%;
+}
+
+.cardGaleria3{
+    background-color: #1B664F;
+    text-align: center;
+    width: 20%;
+    
+}
+.cardGaleria img{
+  
+    background-color: rgba(255, 0, 0, 0);
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 5px inset #ffffff81;
+    margin-top: 2vh;
+}
+.cardGaleria h2{
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*Contacto*/
+.mainContacto{
+    text-align: center;
+    height: 100vh;
+}
+.formularios p{
+    text-align: center;
+    margin: 0 auto;
+    height: 20vh;
+    width: 20%;
+    backdrop-filter: blur(100px);
+}
+.formularioContacto {
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+    width:400px;
+	background-color:#ccc;
+}
+
+#contact {
+    padding: 25px;
+    margin: 150px 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  
+  #contact h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  
+  #contact h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  
+  fieldset {
+    border: medium none !important;
+    margin:auto;
+    min-width: 50%;
+    padding: 0;
+    width: 50%;
+  }
+  
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact input[type="tel"],
+  #contact input[type="url"],
+  #contact textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+  }
+  
+  #contact input[type="text"]:hover,
+  #contact input[type="email"]:hover,
+  #contact input[type="tel"]:hover,
+  #contact input[type="url"]:hover,
+  #contact textarea:hover {
+    border: 1px solid #aaa;
+  }
+  
+  #contact textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+  }
+  
+  #contact button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #4CAF50;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+  }
+  
+  #contact button[type="submit"]:hover {
+    background: #43A047;
+  }
+  
+  #contact button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+  }
+  
+  #contact input:focus,
+  #contact textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+  }
