@@ -68,6 +68,7 @@ body{
 
 .card-group {
     column-gap: 1rem;
+    
 }
 .card-img-top{
     width: 100%;
@@ -94,6 +95,10 @@ body{
 }
 
 /*Proyectos.html*/
+.proyectosImg{
+    background-color: #1d1d1da1;
+    color:white;
+}
 .imgIzq{
     background-image: url(../assets/img/proyecto1.JPG);
     background-repeat: no-repeat;
@@ -102,13 +107,32 @@ body{
     height: 50vh;
 }
 .imgDer{
-    height: 50vh;
-    border: 1px solid gray;
-    background-color: #4d5f5627;
+    height: 50vh;    
     backdrop-filter: blur(15px);
     display: flex;
     align-items: center;
     color: white;
+}
+.imgDer2{
+    background-image: url(../assets/img/proyecto2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+.imgIzq2{
+    height: 50vh;
+    backdrop-filter: blur(15px);
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.imgIzq3{
+    background-image: url(../assets/img/proyecto3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
 }
 
 
