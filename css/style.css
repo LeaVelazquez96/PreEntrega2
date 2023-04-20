@@ -23,7 +23,7 @@ body{
 }
 /*Fondo principal*/
 .headerIndex {
-    height: 100vh;   
+    height: 50vh;   
 }
 
 .logo{
@@ -50,9 +50,6 @@ body{
     font-size: 1rem;
     color: white;
     text-shadow: 0 0 4px #000000;
-}
-.textoIndex{
-
 }
 .main{
     margin-top: 2rem;
@@ -122,47 +119,6 @@ body{
 .headerIndexGaleria{
     text-align: center;
 }
-/*
-.mainGaleria{
-    text-align: center;
-    height: 80vh;
-    backdrop-filter: blur(15px);
-}
-.cardGaleria{
-    height: auto;
-    display: inline-block;
-    text-align: left;
-    margin: 0 auto;
-    height: 200px;
-    width: 200px;
-    margin-right: 3rem
-}
-
-.cardGaleria2{
-    text-align: center;
-    width: 20%;
-}
-
-.cardGaleria3{
-    background-color: #1B664F;
-    text-align: center;
-    width: 20%;
-    
-}
-.cardGaleria img{
-    background-color: rgba(255, 0, 0, 0);
-    margin: 0 auto;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border: 5px inset #ffffff81;
-    margin-top: 2vh;
-}
-.cardGaleria h2{
-    text-align: center;
-    margin-top: 10px;
-}
-*/
 .galeria .col-lg-4{
     padding: 25px ;
     margin: 0;!important
@@ -173,6 +129,11 @@ body{
 }
 .galeria img:hover{
     border: 5px solid;
+}
+
+/*Nosotros*/
+.mainGaleria{
+    height: 70vh;
 }
 /*Contacto*/
 .mainContacto{
@@ -193,82 +154,7 @@ body{
     width:400px;
 	background-color:#ccc;
 }
-
-#contact {
-    padding: 25px;
-    margin: 150px 0;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-  }
-  
-  #contact h3 {
-    display: block;
-    font-size: 30px;
-    font-weight: 300;
-    margin-bottom: 10px;
-  }
-  
-  #contact h4 {
-    margin: 5px 0 15px;
-    display: block;
-    font-size: 13px;
-    font-weight: 400;
-  }
-  
-  fieldset {
-    border: medium none !important;
-    margin:auto;
-    min-width: 50%;
-    padding: 0;
-    width: 50%;
-  }
-  
-  #contact input[type="text"],
-  #contact input[type="email"],
-  #contact input[type="tel"],
-  #contact input[type="url"],
-  #contact textarea {
-    width: 100%;
-    border: 1px solid #ccc;
-    background: #FFF;
-    margin: 0 0 5px;
-    padding: 10px;
-  }
-  
-  #contact input[type="text"]:hover,
-  #contact input[type="email"]:hover,
-  #contact input[type="tel"]:hover,
-  #contact input[type="url"]:hover,
-  #contact textarea:hover {
-    border: 1px solid #aaa;
-  }
-  
-  #contact textarea {
-    height: 100px;
-    max-width: 100%;
-    resize: none;
-  }
-  
-  #contact button[type="submit"] {
-    cursor: pointer;
-    width: 100%;
-    border: none;
-    background: #4CAF50;
-    color: #FFF;
-    margin: 0 0 5px;
-    padding: 10px;
-    font-size: 15px;
-  }
-  
-  #contact button[type="submit"]:hover {
-    background: #43A047;
-  }
-  
-  #contact button[type="submit"]:active {
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
-  }
-  
-  #contact input:focus,
-  #contact textarea:focus {
-    outline: 0;
-    border: 1px solid #aaa;
-  }
+ /*Contacto*/
+ .emailImput{
+    
+ }
