@@ -76,23 +76,11 @@ body{
     object-fit: fill;
 }
 
-.footer{
-    margin: 0 auto;
-    height: 10vh;
-    text-align: center;
+.footerIndex{
+    height: 100%;
+    background-color: #1B664F;
+}
 
-}
-.footer p{
-    text-align: center;
-    color: white;
-}
-.redes  {
-    text-decoration: none;
-}
-.fa-brands{/*Iconos Footer*/ 
-    font-size: 2rem;
-    padding-left: 20px;
-}
 
 /*Proyectos.html*/
 .proyectosImg{
@@ -140,6 +128,7 @@ body{
 .headerIndexGaleria{
     text-align: center;
 }
+/*
 .mainGaleria{
     text-align: center;
     height: 80vh;
@@ -167,7 +156,6 @@ body{
     
 }
 .cardGaleria img{
-  
     background-color: rgba(255, 0, 0, 0);
     margin: 0 auto;
     height: 100%;
@@ -180,7 +168,18 @@ body{
     text-align: center;
     margin-top: 10px;
 }
-
+*/
+.galeria .col-lg-4{
+    padding: 25px ;
+    margin: 0;!important
+}
+.galeria img{
+    width: 100%;
+    height: 250px;
+}
+.galeria img:hover{
+    border: 5px solid;
+}
 /*Contacto*/
 .mainContacto{
     text-align: center;
