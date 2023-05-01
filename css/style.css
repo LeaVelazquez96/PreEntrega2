@@ -121,7 +121,7 @@ body{
 }
 .galeria .col-lg-4{
     padding: 25px ;
-    margin: 0;!important
+    margin: 0; 
 }
 .galeria img{
     width: 100%;
@@ -154,7 +154,7 @@ body{
     width:400px;
 	background-color:#ccc;
 }
- /*Contacto*/
- .emailImput{
-    
- }
+/*Contacto*/
+.emailImput{
+
+}
