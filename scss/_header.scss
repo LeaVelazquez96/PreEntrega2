@@ -1,0 +1,29 @@
+.headerIndex {
+    height: 50vh;   
+}
+
+.logo{
+    /*background-color: #43A047;*/
+    width: 350px;
+}
+.ulColor{
+    justify-content: flex-end;
+}
+.navbar-light .navbar-nav .linknav {
+    color: #1B664F;
+    font-size: 1.3rem;
+}
+.tituloHeader{
+    background-color: #2b645145;
+    backdrop-filter: blur(20px);
+    border-radius: 5rem;
+    margin: 0% auto;
+}
+.tituloHeader h1{
+    font-size: 2rem;
+}
+.tituloHeader p{
+    font-size: 1rem;
+    color: white;
+    text-shadow: 0 0 4px #000000;
+}

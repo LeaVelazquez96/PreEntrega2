@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../assets/img/fondoprincipal1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    font-family: $fuente-principal;
+    backdrop-filter: blur(90px);
+    /*background-image: linear-gradient(to right top, #adc9cd, #a0b7ba, #93a5a8, #869396, #798284, #7f8688, #868a8c, #8c8e90, #a8a9ab, #c4c5c6, #e1e2e2, #ffffff);*/
+}
+
+.marginHrTitulo{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: #1B664F;
+}
+/*Fondo principal*/
+
+.main{
+    margin-top: 2rem;
+    /*height: 70vh;*/
+    backdrop-filter: $blur-cards;
+}
+
+.card-group {
+    column-gap: 1rem;
+    
+}
+.card-img-top{
+    width: 100%;
+    height: 35vh;
+    object-fit: fill;
+}
+.marginHrTitulo{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: #1B664F;
+}
+/*Fondo principal*/
+
+.main{
+    margin-top: 2rem;
+    /*height: 70vh;*/
+    backdrop-filter: $blur-cards;
+}
+
+.card-group {
+    column-gap: 1rem;
+    
+}
+.card-img-top{
+    width: 100%;
+    height: 35vh;
+    object-fit: fill;
+}
