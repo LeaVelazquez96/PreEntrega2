@@ -1,3 +1,29 @@
 .color{
     color: white;
 }
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../assets/img/fondoprincipal1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    font-family: $fuente-principal;
+    backdrop-filter: blur(90px);
+    /*background-image: linear-gradient(to right top, #adc9cd, #a0b7ba, #93a5a8, #869396, #798284, #7f8688, #868a8c, #8c8e90, #a8a9ab, #c4c5c6, #e1e2e2, #ffffff);*/
+}
+
+.marginHrTitulo{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: #1B664F;
+}

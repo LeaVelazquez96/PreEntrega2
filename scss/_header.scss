@@ -1,13 +1,11 @@
-.headerIndex {
-    height: 50vh;   
-}
-
-.logo{
-    /*background-color: #43A047;*/
-    width: 350px;
-}
-.ulColor{
-    justify-content: flex-end;
+.header{
+    .logo{
+        /*background-color: #43A047;*/
+        width: 350px;
+        }  
+        .ulColor{
+            justify-content: flex-end;
+        }
 }
 .navbar-light .navbar-nav .linknav {
     color: #1B664F;
@@ -27,3 +25,5 @@
     color: white;
     text-shadow: 0 0 4px #000000;
 }
+
+

@@ -6,4 +6,119 @@
 @import "galeria.scss";
 @import "proyectos.scss";
 @import "nosotros.scss";
-@import "footer.scss"
+@import "footer.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+
+
+
+/*Fondo principal*/
+
+.main{
+    margin-top: 2rem;
+    /*height: 70vh;*/
+    backdrop-filter: blur(15px);
+}
+
+.card-group {
+    column-gap: 1rem;
+    
+}
+.card-img-top{
+    width: 100%;
+    height: 35vh;
+    object-fit: fill;
+}
+
+.footerIndex{
+    height: 100%;
+    background-color: #1B664F;
+}
+
+
+/*Proyectos.html*/
+.proyectosImg{
+    background-color: #1d1d1da1;
+    color:white;
+}
+.imgIzq{
+    background-image: url(../assets/img/proyecto1.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+.imgDer{
+    height: 50vh;    
+    backdrop-filter: blur(15px);
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.imgDer2{
+    background-image: url(../assets/img/proyecto2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+.imgIzq2{
+    height: 50vh;
+    backdrop-filter: blur(15px);
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.imgIzq3{
+    background-image: url(../assets/img/proyecto3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+
+/*Aca empieza Galeria.html*/ /**/
+.headerIndexGaleria{
+    text-align: center;
+}
+.galeria .col-lg-4{
+    padding: 25px ;
+    margin: 0; 
+}
+.galeria img{
+    width: 100%;
+    height: 250px;
+}
+.galeria img:hover{
+    border: 5px solid;
+}
+
+/*Nosotros*/
+.mainGaleria{
+    height: 70vh;
+}
+/*Contacto*/
+.mainContacto{
+    text-align: center;
+    height: 100vh;
+}
+.formularios p{
+    text-align: center;
+    margin: 0 auto;
+    height: 20vh;
+    width: 20%;
+    backdrop-filter: blur(100px);
+}
+.formularioContacto {
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+    width:400px;
+	background-color:#ccc;
+}
+/*Contacto*/
+.emailImput{
+
+}
