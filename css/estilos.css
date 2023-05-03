@@ -26,9 +26,7 @@
   background-color: #1B664F;
 }
 
-.headerIndex { /*HeaderYNAV*/
-  height: 50vh;
-}
+.headerIndex { /*HeaderYNAV*/ }
 .headerIndex .logo {
   /*background-color: #43A047;*/
   width: 350px;
@@ -58,6 +56,10 @@
   margin-top: 2rem;
   /*height: 70vh;*/
   backdrop-filter: blur(15px);
+}
+.main .proyectosIndexImg {
+  background-color: rgba(29, 29, 29, 0.631372549);
+  color: white;
 }
 .main .card-group {
   column-gap: 1rem;
@@ -90,7 +92,7 @@
 /*Proyectos.html*/
 .proyectosImg {
   background-color: rgba(29, 29, 29, 0.631372549);
-  color: rgb(153, 25, 25);
+  color: white;
 }
 
 .imgIzq {
@@ -154,13 +156,13 @@
 
 /*Nosotros*/
 .mainGaleria {
-  height: 70vh;
+  /*height: 70vh;*/
 }
 
 /*Contacto*/
 .mainContacto {
   text-align: center;
-  height: 100vh;
+  /*height: 100vh;*/
 }
 
 .formularios p {
