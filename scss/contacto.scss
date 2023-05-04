@@ -1,20 +1,11 @@
 /*Contacto*/
 .mainContacto{
-    text-align: center;
-    /*height: 100vh;*/
+    background-color: $fondo-negro;
+    backdrop-filter: $blur-cards;
+    color: white;
+    padding-top: 10vh;
+    padding-bottom: 30vh;
 }
-.formularios p{
-    text-align: center;
-    margin: 0 auto;
-    height: 20vh;
-    width: 20%;
-    backdrop-filter: blur(100px);
-}
-.formularioContacto {
-	padding:16px;
-	border-radius:10px;
-	margin:auto;
-    width:400px;
-	background-color:#ccc;
-}
-/*Contacto*/
+/*Contacto
+$fondo-negro: rgba(29, 29, 29, 0.631372549); 
+$blur-cards*/
