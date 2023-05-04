@@ -8,39 +8,11 @@
 @import "proyectos.scss";
 @import "nosotros.scss";
 @import "footer.scss";
-
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 
 
 
 
-/*Fondo principal*/
 
 
 
-
-
-
-
-
-/*Contacto*/
-.mainContacto{
-    text-align: center;
-    /*height: 100vh;*/
-}
-.formularios p{
-    text-align: center;
-    margin: 0 auto;
-    height: 20vh;
-    width: 20%;
-    backdrop-filter: blur(100px);
-}
-.formularioContacto {
-	padding:16px;
-	border-radius:10px;
-	margin:auto;
-    width:400px;
-	background-color:#ccc;
-}
-/*Contacto*/
