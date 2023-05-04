@@ -1,0 +1,59 @@
+/*Proyectos.html*/
+
+
+.main__proyectos{
+    .mainSectionProyectos{
+        }
+    .proyectosImg{
+        background-color: #1d1d1da1;
+        color:white;
+        .imgIzq{
+            background-image: url(../assets/img/proyecto1.JPG);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            padding-bottom: 40vh;
+            width: 100%;
+        }    
+
+
+    
+
+        .imgDer{
+            /*height: 50vh;*/    
+            backdrop-filter: blur(15px);
+            display: flex;
+            align-items: center;
+            color: white;
+        }
+        .imgDer2{
+            background-image: url(../assets/img/proyecto2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            padding-top: 40vh;
+
+            /*height: 50vh;*/
+        }
+        .imgIzq2{
+            /*height: 50vh;*/
+            backdrop-filter: blur(15px);
+            display: flex;
+            align-items: center;
+            color: white;
+        }
+        .imgIzq3{
+            background-image: url(../assets/img/proyecto3.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            padding-top: 40vh;
+            /*height: 50vh;*/
+        }
+        
+
+    }
+}
+
+
+
