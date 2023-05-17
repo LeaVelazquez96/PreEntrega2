@@ -1,4 +1,14 @@
 $fuente-principal: 'Poppins', sans-serif;
+$color-fuente:white;
 $fondo-negro: rgba(29, 29, 29, 0.631372549); 
 $blur-cards: blur(15px);
-$proyectos-cards-size: 400px
+$proyectos-cards-size: 400px;
+$color-principal: #1B664F;
+
+$proyectos:(
+    norepeat: no-repeat,
+    size-cover: cover,
+    background-center: center,
+    padding-40vh: 40vh,
+    fle: flex
+);

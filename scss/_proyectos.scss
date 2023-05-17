@@ -1,0 +1,36 @@
+/*Proyectos.html*/
+
+
+.main__proyectos{
+    .proyectosImg{
+        background-color: $fondo-negro;
+        color:$color-fuente;
+        .imgIzq{
+            background-image: url(../assets/img/proyecto1.JPG);
+            background-repeat: map-get($proyectos, norepeat );
+            background-size: map-get($proyectos, size-cover);
+            background-position: map-get($proyectos, background-center);
+            padding-bottom: map-get($proyectos,padding-40vh );
+        }    
+        .imgDer{ 
+            backdrop-filter: $blur-cards;
+            display: map-get($proyectos, fle);
+            align-items: map-get($proyectos, background-center);
+            color: $color-fuente;
+        }
+        .imgDer2{
+            @extend .imgIzq;
+            background-image: url(../assets/img/proyecto2.jpg);
+        }
+        .imgIzq2{ 
+            @extend .imgDer;
+        }
+        .imgIzq3{
+            @extend .imgIzq;
+            background-image: url(../assets/img/proyecto3.jpg);
+        }        
+    }
+}
+
+
+

@@ -1,11 +1,7 @@
-/*Contacto*/
 .mainContacto{
     background-color: $fondo-negro;
     backdrop-filter: $blur-cards;
-    color: white;
+    color: $color-fuente;
     padding-top: 10vh;
     padding-bottom: 30vh;
 }
-/*Contacto
-$fondo-negro: rgba(29, 29, 29, 0.631372549); 
-$blur-cards*/

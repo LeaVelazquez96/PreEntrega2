@@ -1,0 +1,72 @@
+$ancho :100%;
+$borde: 5px solid black;
+$bg-color-green:green;
+$total-columnas : 10;
+$tamaño-fuente: 12px;
+$fuentes_negrita: bold;
+$borde-principal: 1px solid black;
+$flex : flex;
+$center:center;
+$row: row;
+$space-around :space-around;
+$space-between:space-between;
+$column:column;
+$space-evenly:space-evenly;
+$primary-color: pink;
+$text-align: center;
+$fuente-principal: 'Roboto', sans-serif;
+
+
+
+/*maps*/
+$redes:(
+    face : blue,
+    instagram : rgb(196, 14, 251),
+    telegram : rgb(15, 1, 64),
+    tiktok:red
+);
+$red-facebook :  blue;
+$red-instagram : rgb(247, 14, 251);
+$red-telegram : rgb(15, 1, 64);
+$red-tiktok : red;
+
+$bordes:(
+    borde-solid-principal :  1px solid black,
+    borde-solid-dospx:  2px solid black,
+    borde-solid-trespx:  3px solid black,
+    borde-solid-gray : 1px solid gray
+);
+
+$map-flex:(
+    flex: flex,
+    row: row,
+    column: column,
+    space-around: space-around,
+    space-between: space-between,
+    space-evenly: space-evenly,
+    space-center: center,
+    align-items-stretch: stretch
+);
+
+$fuentes:(
+    thin:100,
+    light:300,
+    regular:400,
+    medium:500,
+    bold:700,
+    black:900
+);
+
+$sizes:(
+    catorce: 14px,
+    16 : 16px,
+    20 :20px,
+    10 : 10px
+);
+
+$estilos: (
+  color: #5936d9,
+  centro: center,
+  tFuente: 35px,
+  1rem : 1rem
+);

@@ -1,5 +1,5 @@
 .color{
-    color: white;
+    color: $color-fuente;
 }
 
 
@@ -25,5 +25,5 @@
 .marginHrTitulo{
     padding-top: 1px;
     padding-bottom: 1px;
-    background-color: #1B664F;
+    background-color: $color-principal;
 }
