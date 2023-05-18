@@ -1,0 +1,9 @@
+@mixin flexbox($justificacion,$alineacion,$direction,$ancho,$alto,$borde:1px solid black){
+    display:flex;
+    justify-content:$justificacion;
+    align-items: $alineacion;
+    flex-direction: $direction;
+    width:$ancho;
+    height:$alto;
+
+}

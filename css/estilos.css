@@ -100,14 +100,28 @@
   background-color: rgba(29, 29, 29, 0.631372549);
   color: white;
 }
-.mainGaleria .galeria img {
+.mainGaleria .galeria .float {
+  animation: float infinite 3s ease-in-out;
+}
+.mainGaleria .galeria .float img {
   width: 100%;
   height: 250px;
 }
-.mainGaleria .galeria img:hover {
+.mainGaleria .galeria .float img:hover {
   border: 5px solid;
 }
 
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-25px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 /*Proyectos.html*/
 .main__proyectos .proyectosImg {
   background-color: rgba(29, 29, 29, 0.631372549);
