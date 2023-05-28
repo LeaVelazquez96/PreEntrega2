@@ -128,7 +128,7 @@
   color: white;
 }
 .main__proyectos .proyectosImg .imgIzq, .main__proyectos .proyectosImg .imgIzq3, .main__proyectos .proyectosImg .imgDer2 {
-  background-image: url(../assets/img/proyecto1.JPG);
+  background-image: url(../assets/img/proyecto1menospx.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -141,10 +141,10 @@
   color: white;
 }
 .main__proyectos .proyectosImg .imgDer2 {
-  background-image: url(../assets/img/proyecto2.jpg);
+  background-image: url(../assets/img/proyecto2menospx.jpg);
 }
 .main__proyectos .proyectosImg .imgIzq3 {
-  background-image: url(../assets/img/proyecto3.jpg);
+  background-image: url(../assets/img/proyecto3menospx.jpg);
 }
 
 .mainNosotros .fondoMain {

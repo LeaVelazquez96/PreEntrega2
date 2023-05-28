@@ -6,7 +6,7 @@
         background-color: $fondo-negro;
         color:$color-fuente;
         .imgIzq{
-            background-image: url(../assets/img/proyecto1.JPG);
+            background-image: url(../assets/img/proyecto1menospx.jpg);
             background-repeat: map-get($proyectos, norepeat );
             background-size: map-get($proyectos, size-cover);
             background-position: map-get($proyectos, background-center);
@@ -20,14 +20,14 @@
         }
         .imgDer2{
             @extend .imgIzq;
-            background-image: url(../assets/img/proyecto2.jpg);
+            background-image: url(../assets/img/proyecto2menospx.jpg);
         }
         .imgIzq2{ 
             @extend .imgDer;
         }
         .imgIzq3{
             @extend .imgIzq;
-            background-image: url(../assets/img/proyecto3.jpg);
+            background-image: url(../assets/img/proyecto3menospx.jpg);
         }        
     }
 }
